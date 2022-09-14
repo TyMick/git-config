@@ -1,0 +1,32 @@
+[checkout]
+  defaultRemote = origin
+
+[core]
+  editor = code --wait
+
+[diff]
+  tool = vscode
+
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+
+[init]
+  defaultBranch = main
+
+[merge]
+  tool = vscode
+
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+
+[pull]
+  ff = only
+
+[user]
+  name = Ty Mick
