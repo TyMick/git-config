@@ -30,3 +30,4 @@
 
 [user]
   name = Ty Mick
+  useConfigOnly = true
