@@ -33,4 +33,9 @@
 
 [user]
   name = Ty Mick
-  useConfigOnly = true
+  email = 5317080+TyMick@users.noreply.github.com
+
+[includeIf "gitdir:~/code/git.faithlife.dev/"]
+  path = logos.gitconfig
+[includeIf "gitdir:~/code/github.com/Faithlife/"]
+  path = logos.gitconfig
