@@ -28,6 +28,9 @@
 [pull]
   ff = only
 
+[rebase]
+  autoSquash = true
+
 [user]
   name = Ty Mick
   useConfigOnly = true
