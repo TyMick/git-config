@@ -1,3 +1,6 @@
+[branch]
+	autoSetupRebase = always
+
 [checkout]
   defaultRemote = origin
 
