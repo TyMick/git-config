@@ -6,7 +6,6 @@
 
 [diff]
   tool = vscode
-
 [difftool "vscode"]
   cmd = code-insiders --wait --diff $LOCAL $REMOTE
 
@@ -21,7 +20,6 @@
 
 [merge]
   tool = vscode
-
 [mergetool "vscode"]
   cmd = code-insiders --wait $MERGED
 
