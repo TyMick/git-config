@@ -5,12 +5,12 @@
   defaultRemote = origin
 
 [core]
-  editor = code-insiders --wait
+	editor = code --wait
 
 [diff]
   tool = vscode
 [difftool "vscode"]
-  cmd = code-insiders --wait --diff $LOCAL $REMOTE
+  cmd = code --wait --diff $LOCAL $REMOTE
 
 [filter "lfs"]
   clean = git-lfs clean -- %f
@@ -24,7 +24,7 @@
 [merge]
   tool = vscode
 [mergetool "vscode"]
-  cmd = code-insiders --wait $MERGED
+	cmd = code --wait $MERGED
 
 [pull]
   ff = only
