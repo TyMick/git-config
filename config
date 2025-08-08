@@ -7,6 +7,13 @@
 [core]
 	editor = code --wait
 
+[credential "https://github.com"]
+	helper = !/usr/local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/local/bin/gh auth git-credential
+[credential "https://git.faithlife.dev"]
+	helper = !/usr/local/bin/gh auth git-credential
+
 [diff]
   tool = vscode
 [difftool "vscode"]
